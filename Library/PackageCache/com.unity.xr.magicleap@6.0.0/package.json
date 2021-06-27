@@ -1,0 +1,44 @@
+{
+  "name": "com.unity.xr.magicleap",
+  "displayName": "Magic Leap XR Plugin",
+  "version": "6.0.0",
+  "unity": "2020.1",
+  "description": "Provides rendering and spatial mapping support for Magic Leap.\n\nNOTE: As of Unity 2019.2, Legacy XR support for MagicLeap is disabled in favor of XR SDK",
+  "keywords": [
+    "magicleap",
+    "ar",
+    "augmented",
+    "xr",
+    "reality",
+    "xreditorsubsystem"
+  ],
+  "dependencies": {
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.vr": "1.0.0",
+    "com.unity.modules.xr": "1.0.0",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.xr.arsubsystems": "4.0.1",
+    "com.unity.xr.interactionsubsystems": "1.0.1",
+    "com.unity.xr.management": "3.2.10"
+  },
+  "upmCi": {
+    "footprint": "f86f5b61d2aeb1f1f9fcc0035ecf33374e675f85"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/xr.sdk.magicleap.git",
+    "type": "git",
+    "revision": "28551ee60542c1c11e9ea582f48eafbb75120eee"
+  },
+  "samples": [
+    {
+      "displayName": "Example XR Input Pose Providers - Requires Legacy Input Helpers 2.1.2",
+      "description": "Example code showing how to implement custom pose providers for MagicLeap using XR Input",
+      "path": "Samples~/InputProviders"
+    },
+    {
+      "displayName": "MagicLeap Rendering Samples",
+      "description": "Example code showing how to implement MagicLeap-specific rendering optimizations",
+      "path": "Samples~/Rendering"
+    }
+  ]
+}

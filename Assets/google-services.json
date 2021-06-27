@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "245560681144",
+    "project_id": "scribe-34ea3",
+    "storage_bucket": "scribe-34ea3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245560681144:android:9820d400a31a996f748a4d",
+        "android_client_info": {
+          "package_name": "com.sol.scribe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245560681144-4pqdnb1h2ir9e9luqutipb56f7mnd6kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJPWM8I5BkJAIVEdXgwGy4-4oNMi_hE8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245560681144-4pqdnb1h2ir9e9luqutipb56f7mnd6kh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "245560681144-4sd1h7bko409g0r2v1ln1asdlgu3v0rd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sol.scribe"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
